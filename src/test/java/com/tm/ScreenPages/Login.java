@@ -28,10 +28,10 @@ public class Login extends Weblibrary {
 		logEvent(status, "Application launched Sucessfully", "Unable to launch the Application");
 		
 		status = setText(Edit_UserName, uid);
-		logEvent(status, "Username enter Sucessfully", "Unable to enter Username ");
+		logEvent(status, "Username entered Sucessfully", "Unable to enter Username ");
 	
 		status = setText(Edit_Password, pwd);
-		logEvent(status, "Password enter Sucessfully", " unable to enter Password ");
+		logEvent(status, "Password entered Sucessfully", " unable to enter Password ");
 		
 		status = clickElement(Btn_Login);
 		logEvent(status, "Able to click the Login button", "unable to Click the Login button");
